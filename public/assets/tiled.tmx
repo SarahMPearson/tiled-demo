@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Desert" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="coin" tilewidth="32" tileheight="32">
+  <image source="coin.png" width="192" height="32"/>
+ </tileset>
+ <layer name="Background" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyTY2BgkBvFo3gUj+IhgAG1jiMp
+  </data>
+ </layer>
+ <layer name="Scenery" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJy9kksKgDAMRKMupAp+wbrq/Y9pBAthSJMiYuBtOkMyIU1ElD6EKn2BaZiW6UgvT/c8mhYeBmZkZgXUF+g7GT0INLnvymzMzkTIFxX9BM/h9JAaiblYMl+pPI+ll+4r85XuhjtYPUpzrWw1u3s+zKTdtwes3LIsH2bKc7U/jH8y0fvS/lV++5N7/gXYMQx6
+  </data>
+ </layer>
+ <layer name="Plants" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFxAADJEwKkKeBW0btHbWXmvbqI2F62ksOAAD5TQH3
+  </data>
+ </layer>
+ <layer name="Ground" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgYIDdq76i9o/YOWXulBggDACyFA/0=
+  </data>
+ </layer>
+ <objectgroup name="Money">
+  <object gid="49" x="64" y="32"/>
+  <object gid="49" x="320" y="32"/>
+  <object gid="49" x="608" y="32"/>
+  <object gid="49" x="832" y="32"/>
+  <object gid="49" x="832" y="192"/>
+  <object gid="49" x="736" y="96"/>
+  <object gid="49" x="480" y="64"/>
+  <object gid="49" x="192" y="64"/>
+  <object gid="49" x="384" y="224"/>
+  <object gid="49" x="736" y="224"/>
+  <object gid="49" x="160" y="224">
+   <properties>
+    <property name="body.velocity.x" value="0.8"/>
+   </properties>
+  </object>
+  <object gid="49" x="608" y="160"/>
+  <object gid="49" x="64" y="160"/>
+  <object gid="49" x="480" y="224"/>
+  <object gid="49" x="192" y="64"/>
+  <object gid="49" x="128" y="32">
+   <properties>
+    <property name="body.gravity.y" value="100"/>
+    <property name="rotation" value="25"/>
+   </properties>
+  </object>
+  <object gid="49" x="128" y="160">
+   <properties>
+    <property name="alpha" value="0.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
